@@ -4,6 +4,7 @@
 import java.util.*;
 
 //  Definition for a binary tree node.
+//Below node definition is given in leetcode.
 class TreeNode {
       int val;
       TreeNode left;
