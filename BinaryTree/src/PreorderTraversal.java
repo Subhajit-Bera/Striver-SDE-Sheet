@@ -1,4 +1,7 @@
 
+
+//Binary Tree Preorder Traversal using Recursion
+
 //https://leetcode.com/problems/binary-tree-preorder-traversal/description/
 
 import java.util.*;
@@ -19,6 +22,7 @@ class TreeNode {
   }
 
 public class PreorderTraversal {
+    //TC:0(n)  SC:0(n) -> Recursion stack space
     private void dfs(TreeNode root, List<Integer> preorder){
         if(root==null){
             return;
